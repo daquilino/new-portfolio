@@ -210,7 +210,7 @@ a:hover {
 
 
 
-.navbar:hover{
+/*.navbar:hover{
     background-color: rgba(0,0,0,.5);
     animation-name: nav-hover;  
     animation-duration: 1s;   
@@ -220,7 +220,7 @@ a:hover {
     from {background-color: transparent;}
     to {background-color: rgba(91,192,222,.5);}
 }
-
+*/
 
 
 /*   code to test animated projects*/
