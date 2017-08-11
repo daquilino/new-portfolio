@@ -103,6 +103,12 @@ h1.center{
 
 #work {min-height: 100%}  /* dont think I need*/
 
+.work-section {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .work-item{
     height: 100vh;          /*changed from 100%*/
     position: relative;
@@ -165,14 +171,6 @@ div.contact {
     padding: 0 10%;
 }
 
-div.work-item:first-child{
-   /* margin-top: 10%;*/
-}
-
-div.work-item:last-child{
-    margin-bottom: 10%;
-}
-
 div#copy p {
     margin: 0;
 }
@@ -211,31 +209,17 @@ a:hover {
 }
 
 
-/*  custom scrollbar test code
-    
-html::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: purple;
-}
 
-html::-webkit-scrollbar
-{
-    width: 10px;
-    background-color: white;
-}*/
-
-
-/*.navbar:hover{
+.navbar:hover{
     background-color: rgba(0,0,0,.5);
     animation-name: nav-hover;  
     animation-duration: 1s;   
-}*/
+}
                             
-/*@keyframes nav-hover {            
+@keyframes nav-hover {            
     from {background-color: transparent;}
-    to {background-color: rgba(0,0,0,.5);}
-}*/
+    to {background-color: rgba(91,192,222,.5);}
+}
 
 
 
@@ -261,6 +245,12 @@ div#contact a {
     margin-right: 15%;
 }
 
+/*reduces magin on small screens to keep icons inline*/
+@media screen and (max-width: 400px) { 
+  
+  div#contact a {margin-right: 5%;}
+}
+
 div#contact a:last-of-type {
     margin-right: 0;
 }
@@ -268,4 +258,5 @@ div#contact a:last-of-type {
 #contact-links {
     margin-top: 8%;
 }
+
 
