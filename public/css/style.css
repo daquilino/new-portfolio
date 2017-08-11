@@ -2,14 +2,10 @@
 
 html, body {
 	height: 100%;
-
 }
-
 
 body {
     background: url('../images/bgs/white-wall.png');
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed; */
 }
 
 #main {
@@ -17,8 +13,8 @@ body {
     margin-left: 60px;
 }
 
-/*  Nav Bar styling*/
 
+/*  Nav Bar styling*/
 .navbar {
     background: lightblue;
     border-radius: 0;
@@ -52,9 +48,10 @@ ul > li { box-sizing: border-box;}
     background-color: transparent !important;
 }
 
+
+/* Home Div styling*/
 #home {
     height: 100%;
-    /*background: white;*/
 }
 
 #bio-section{
@@ -92,14 +89,7 @@ h1.center{
   #name {
      font-size: 2em;
   }
-
 }
-
-.about {
-    /*background: blue;*/
-    height: 100%;
-}
-
 
 #work {min-height: 100%}  /* dont think I need*/
 
