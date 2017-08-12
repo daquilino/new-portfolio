@@ -6,6 +6,7 @@ html, body {
 
 body {
     background: url('../images/bgs/white-wall.png');
+    /*font-family: 'Vollkorn', serif;*/
 }
 
 #main {
@@ -16,7 +17,7 @@ body {
 
 /*  Nav Bar styling*/
 .navbar {
-    background: lightblue;
+    background: rgb(0,22,128);/*background: lightblue;*/
     border-radius: 0;
     width:60px;
     height: 100%;
@@ -77,9 +78,11 @@ h1.center{
 }
 
 #name {
-    text-shadow: 3px 3px black;
+    font-family: 'Bevan', cursive;
+   /* font-family: 'Abril Fatface', cursive;*/
+    text-shadow: 3px 3px lightblue;
     font-weight: 900;
-    color: #5bc0de;
+    color: rgb(0,22,128); /*color: #5bc0de*/;
     font-size: 4vw;
     margin: 0;
 }
@@ -91,7 +94,13 @@ h1.center{
   }
 }
 
+
+/*Work Div Styling*/
 #work {min-height: 100%}  /* dont think I need*/
+
+.work {
+    padding: 0 10%;
+}
 
 .work-section {
     position: absolute;
@@ -138,33 +147,6 @@ ul.list-inline{
     text-align: center;
 }
 
-#contact {
-   
-    background: url('../images/bgs/black-linen.png');
-    height: 50vh;
-    color: white;
-    z-index:100;
-    position: relative;
-}
-
-div.contact {
-   margin-top: 15vh;
-   transform: translateY(-50%);
-}
-
-#copy {
-    margin-top: 10vh;
-    color: white;
-}
-
-.about, .work {
-    padding: 0 10%;
-}
-
-div#copy p {
-    margin: 0;
-}
-
 hr.work-divider {
 
     margin: 0;     /* was margin: 10% 0;*/
@@ -181,26 +163,87 @@ hr.work-divider:first-child{
 #mostly-iphone {
     max-width: 45%;
     box-shadow: 24px 25px 52px -13px rgba(0,0,0,0.5);
-    border-radius: 35px;
-   
-}
-
-
-#mostly-desc-col{
-    /*margin-top: 7%;*/
+    border-radius: 35px;  
 }
 
 p.work-item-desc{
     text-align: center;
 }
 
-a:hover {
-    text-decoration: none;
+
+/*Contact Div Styling*/
+#contact {
+   
+    background: url('../images/bgs/black-linen.png');
+    height: 50vh;
+    color: white;
+    z-index:100;
+    position: relative;
 }
 
 
 
-/*.navbar:hover{
+#copy {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+div#copy p {
+    margin: 0;
+}
+
+div#contact a {
+
+    margin-right: 15%;
+}
+
+/*reduces margin on small screens to keep icons inline*/
+@media screen and (max-width: 400px) { 
+  
+  div#contact a {margin-right: 5%;}
+}
+
+div#contact a:last-of-type {
+    margin-right: 0;
+}
+
+div#contact h2{
+    font-family: 'Bevan', cursive;
+   
+}
+
+#contact-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Abril Fatface', cursive;
+    
+}
+
+a {
+     color: #5bc0de;
+}
+/*p#bio{
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 720px){
+    p#bio{
+        font-size: 1em;
+    }
+
+}
+
+/*
+    .navbar:hover{
     background-color: rgba(0,0,0,.5);
     animation-name: nav-hover;  
     animation-duration: 1s;   
@@ -230,23 +273,5 @@ a:hover {
 }
 */
 
-div#contact a {
-
-    margin-right: 15%;
-}
-
-/*reduces magin on small screens to keep icons inline*/
-@media screen and (max-width: 400px) { 
-  
-  div#contact a {margin-right: 5%;}
-}
-
-div#contact a:last-of-type {
-    margin-right: 0;
-}
-
-#contact-links {
-    margin-top: 8%;
-}
 
 
