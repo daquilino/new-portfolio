@@ -17,13 +17,13 @@ body {
 
 /*  Nav Bar styling*/
 .navbar {
-    background: rgb(0,22,128);/*background: lightblue;*/
-    border-radius: 0;
-    width:60px;
-    height: 100%;
+    /*background: rgb(0,22,128);background: lightblue;*/
+    /*border-radius: 0;*/
+    /*width:60px;*/
+    /*height: 100%;*/
     position: fixed;
-    z-index: 10;
-    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    /*z-index: 10;*/
+    /*box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);*/
 }
 
 .nav-link {
@@ -94,7 +94,6 @@ h1.center{
   }
 }
 
-
 /*Work Div Styling*/
 #work {min-height: 100%}  /* dont think I need*/
 
@@ -106,6 +105,14 @@ h1.center{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/*This vertically centers elements when side by side*/
+@media screen and (min-width: 992px) {
+    .work-section{
+        display: flex;
+        align-items: center;
+    }
 }
 
 .work-item{
@@ -131,6 +138,9 @@ li.label{
     margin: 2px;
 }
 
+li.label-info{
+    background-color: rgb(0,22,128);
+}
 
 /* used to keep responsive label text getting to big*/
 @media screen and (min-width: 440px) {
