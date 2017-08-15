@@ -1,0 +1,24 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daquilino/new-portfolio.git"
+  },
+  "author": "douglas aquilino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daquilino/new-portfolio/issues"
+  },
+  "homepage": "https://github.com/daquilino/new-portfolio#readme"
+}
