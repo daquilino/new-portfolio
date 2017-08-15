@@ -201,6 +201,7 @@ p.work-item-desc{
 
 div#copy p {
     margin: 0;
+    color: black;
 }
 
 div#contact a {
@@ -220,6 +221,7 @@ div#contact a:last-of-type {
 
 div#contact h2{
     font-family: 'Bevan', cursive;
+    color: black;
    
 }
 
