@@ -11,7 +11,8 @@ body {
 
 #main {
 	height: 100%;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
+
 }
 
 
@@ -53,6 +54,7 @@ ul > li { box-sizing: border-box;}
 /* Home Div styling*/
 #home {
     height: 100%;
+    padding: 0 10%;
 }
 
 #bio-section{
@@ -72,7 +74,6 @@ ul > li { box-sizing: border-box;}
 
 #name {
     font-family: 'Bevan', cursive;
-   /* font-family: 'Abril Fatface', cursive;*/
     text-shadow: 3px 3px lightblue;
     font-weight: 900;
     color: rgb(0,22,128); /*color: #5bc0de*/;
@@ -88,7 +89,11 @@ ul > li { box-sizing: border-box;}
 }
 
 /*Work Div Styling*/
-#work {min-height: 100%}  /* dont think I need*/
+#work {
+    min-height: 100%; /* dont think I need*/
+    padding: 0 10%;
+
+}  
 
 .work {
     padding: 0 10%;
@@ -114,6 +119,8 @@ ul > li { box-sizing: border-box;}
 }   
 
 .work-item-heading{
+    /*font-family: 'Bevan', cursive;*/
+    font-family: 'Abril Fatface', cursive; 
     margin-top: 0;
     text-align: center;
 }
@@ -184,8 +191,6 @@ p.work-item-desc{
     position: relative;
 }
 
-
-
 #copy {
     position: absolute;
     bottom: 0;
@@ -227,8 +232,7 @@ a:hover {
 }
 
 p{
-    font-family: 'Abril Fatface', cursive;
-    
+    font-family: 'Abril Fatface', cursive; 
 }
 
 a {
