@@ -54,7 +54,7 @@ ul > li { box-sizing: border-box;}
 /* Home Div styling*/
 #home {
     height: 100%;
-    padding: 0 10%;
+    padding: 0 12%;
 }
 
 #bio-section{
@@ -91,7 +91,7 @@ ul > li { box-sizing: border-box;}
 /*Work Div Styling*/
 #work {
     min-height: 100%; /* dont think I need*/
-    padding: 0 10%;
+    padding: 0 12%;
 
 }  
 
