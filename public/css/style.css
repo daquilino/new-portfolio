@@ -32,6 +32,7 @@ body {
     transition: transform 1s, opacity 1s;
 }
 
+
 .nav-link:hover {
     background-color: transparent !important;
     transform: scale(1.3, 1.3);
@@ -44,10 +45,12 @@ ul > li { box-sizing: border-box;}
 
 .nav-icon {   
     width: 30px;
+
 }
 
 .nav-link:focus { 
     background-color: transparent !important;
+
 }
 
 
@@ -124,6 +127,7 @@ ul > li { box-sizing: border-box;}
     margin-top: 0;
     text-align: center;
 }
+
 
 .work-item-image{
      /*box-shadow: 24px 25px 52px -13px rgba(0,0,0,0.5);*/
