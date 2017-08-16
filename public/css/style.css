@@ -118,6 +118,7 @@ ul > li { box-sizing: border-box;}
 
 .work-item{
     height: 100vh;          /*changed from 100%*/
+    min-height: 568px;
     position: relative;
 }   
 
