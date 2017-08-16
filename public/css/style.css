@@ -65,11 +65,18 @@ ul > li { box-sizing: border-box;}
     top: 50%;
     transform: translateY(-50%);
 }
-#bio {
+p#bio {
     margin-top: 30px;
     padding: 0 25%;
 }
 
+@media screen and (max-width: 720px){
+    p#bio{
+        font-size: 1em;
+        padding: 0 15px;
+    }
+
+}
 
 .home {
     min-height: 100%;
@@ -251,16 +258,8 @@ a {
 a:hover{
     color: rgb(0,22,128);
 }
-/*p#bio{
-    font-size: 2vw;
-}
 
-@media screen and (max-width: 720px){
-    p#bio{
-        font-size: 1em;
-    }
 
-}
 
 /*
     .navbar:hover{
